@@ -30,6 +30,11 @@
 // - ids 72, 73, 75, 76: the external LLM pass wrongly called these
 //   fabricated (claiming their DOIs resolved to unrelated articles);
 //   all four are real papers, independently re-confirmed here.
+// Date this tool's content and citations were last built/checked
+// together (see assets/app.js's References summary, and the hub
+// README's "Content search index"-adjacent conventions doc).
+const VERIFIED = "2026-11-04";
+
 const REFERENCES = [
   { id: 1, kind: "GBD 2017 global injury incidence/prevalence; independently verified — exact title matched via live search.",
     text: "GBD 2017 Disease and Injury Incidence and Prevalence Collaborators (2018) 'Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990-2017: a systematic analysis for the Global Burden of Disease Study 2017', The Lancet, 392(10159), pp. 1789-1858.",
